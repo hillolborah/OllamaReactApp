@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #121212; /* Dark background */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.navbar a:hover {
+    background-color: #333;
+}
+
+/* Main Content Area */
+.main-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.content-box {
+    background-color: #1e1e1e;
+    width: 70%;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Title */
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Input Field */
+.input-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.input-container input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #444;
+    background-color: #222;
+    color: white;
+}
+
+/* Sidebar (Left Icons) */
+.sidebar {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+}
+
+.sidebar img {
+    width: 25px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer img {
+    width: 20px;
+    cursor: pointer;
+}

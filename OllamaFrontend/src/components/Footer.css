@@ -1,0 +1,21 @@
+.footer {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 15px;
+  background-color: #302626;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}  
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icons span {
+  font-size: 24px;
+  color: white;
+}
